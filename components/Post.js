@@ -4,14 +4,11 @@ import PropyTypes from 'prop-types';
 
 const styles = StyleSheet.create({
   postContainer: {
-    flex:1,
     padding: 20,
     marginTop: 20,
-    marginLeft: 20,
-    marginRight: 20,
-    // marginBottom: 10,
+    marginHorizontal: 20,
     borderRadius: 5,
-    backgroundColor: '#FFF',
+    backgroundColor: '#FFFFFF',
     shadowColor: '#DA6C6C',
     shadowOffset: {
       x: 0,
@@ -22,23 +19,23 @@ const styles = StyleSheet.create({
   },
   postContainerHeader:{
     borderBottomWidth: 1,
-    borderColor: '#EEE',
+    borderColor: '#EEEEEE',
     paddingBottom: 10,
   },
   postContainerBody: {
     paddingTop: 10,
   },
   title: {
+    color: '#333333',
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#333',
   },
   author: {
+    color: '#999999',
     fontSize: 12,
-    color: '#999',
   },
   description: {
-    flex: 1,
+    color: '#666666',
     fontSize: 12,
   },
 });
