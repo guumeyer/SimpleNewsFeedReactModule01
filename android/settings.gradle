@@ -1,0 +1,3 @@
+rootProject.name = 'SimpleNewsFeedReactModule01'
+
+include ':app'
